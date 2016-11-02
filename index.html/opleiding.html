@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Opleiding</title>
+	<link rel="stylesheet" type="text/css" href="wiebenik.css" />
+</head>
+<body>
+<main>
+      <header> <h1>Stefan de Gier</h1>
+
+      </header>
+
+<img class="plaatje3" src="work.jpg">
+
+      <nav class=balk>
+      <nav class="dropdown">
+      <nav id="button"><button onclick="myFunction()" class="dropbtn"></button></nav>
+      <nav id="myDropdown" class="dropdown-content">
+      <nav id="navbar" >
+      <ul>
+      	<a href="overmij.html">Over mij</a> 
+        <a href="opleiding.html">Opleiding</a> 
+        <a href="nieuws.html">Nieuws</a> 
+        <a href="beroep.html">Beroep</a>
+        </ul>
+      </nav>
+      </nav>
+      </nav>
+      </nav>
+      
+
+      <article>
+      <h2>Opleiding</h2>
+       <p>Mijn naam is Stefan de Gier en kom uit Hendrik-Ido-Ambacht en  ben 17 jaar oud. Ik ben een vrij serieuze werkende man. Mijn hobby's zijn gamen, relaxen en naar de sportschool gaan wat ik heel graag doe. Ik ga zo 5 keer per week naar de sportschool en ik ben van plan om er nog lang niet mee te stoppen. Mijn doel is om een goeie progammeur te worden en dan vervolgens naar het HBO te gaan om voor software engineer verder te gaan leren. Vervolgens bij een bedrijf werken met detach idee.</p>
+      </article>
+
+
+      <footer class="footpc"> Copyright Stefan de Gier</footer>
+</main>
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</body>
+</html>
