@@ -292,8 +292,8 @@
 
 	}
 
-	nav li a :hover{
-		background-color: blue;
+	a :hover{
+		background-color: grey;
 	}
 
 
