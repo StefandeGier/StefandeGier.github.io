@@ -80,6 +80,14 @@
 		width: 800px;
 	}
 
+	.kracht{
+		width: 300px;
+		margin-top: 20px;
+
+
+
+	}
+
 
 
 	.balk{
@@ -195,7 +203,8 @@
 	}
 
 	p{
-		margin: 30px;
+
+		margin: 0px 30px 30px 30px;
 		
 	}
 
@@ -261,7 +270,9 @@
 
 	}
 
-	.plaatje4{
+	.kracht{
+		width: 500px;
+		margin-top: 20px;
 
 
 
