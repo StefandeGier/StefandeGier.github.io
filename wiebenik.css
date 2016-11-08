@@ -143,7 +143,6 @@
 
 	.werk{
 		width: 350px;
-
 		margin: 20px;
 	}
 
@@ -387,7 +386,7 @@
 	}
 
 	.werk{
-
+		width: 715px;
 		margin: 20px;
 	}
 
@@ -403,6 +402,11 @@
 		width: 250px;
 		margin: 40px;
 
+	}
+
+	.pro{
+		width: 500px;
+		margin-left: 140px;
 	}
 
 
