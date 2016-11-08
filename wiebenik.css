@@ -66,7 +66,7 @@
     .fb{
 
     	width: 100px;
-    	margin: 30px 40px 20px 20px;
+    	margin: 30px 30px 20px 20px;
 
 
     }
@@ -126,6 +126,25 @@
 		width: 300px;
 
 
+	}
+
+	.cambridge{
+		width: 150px;
+		margin: ;
+		margin-left:10px;
+
+	}
+
+	.develstein{
+		width: 150px;
+		margin-left: 20px; 
+
+	}
+
+	.werk{
+		width: 350px;
+
+		margin: 20px;
 	}
 
 
@@ -362,10 +381,36 @@
 		width: 300px;
 	}
 
+	.cambridge{
+		width: 100px;
+
+	}
+
+	.werk{
+
+		margin: 20px;
+	}
+
+
+	.cambridge{
+		width: 250px;
+		margin: 40px;
+		margin-left: 70px;
+
+	}
+
+	.develstein{
+		width: 250px;
+		margin: 40px;
+
+	}
+
 
 
 	.balk{
 		background-color: #696969;
+
+
 	
 
 	}
