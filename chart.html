@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Wie ben ik/over mij (2)</title>
+	<link rel="stylesheet" type="text/css" href="wiebenik.css" />
+</head>
+<body>
+<main>
+      <header> <h1>Stefan de Gier</h1>
+
+      </header>
+
+
+
+    <img class="plaatje3" src="knowledge.jpg">
+
+
+
+     <nav class=balk> 
+      <nav class="dropdown">
+      <nav id="button"><button onclick="myFunction()" class="dropbtn"></button></nav>
+      <nav id="myDropdown" class="dropdown-content">
+      <nav id="navbar" >
+      <ul>
+      	<a href="index.html">Over mij</a>
+        <a href="opleiding.html">Opleiding</a>  
+        <a href="beroep.html">Beroep</a> 
+        <a href="studies.html">Studies</a>
+        <a href="werkervaring.html">Werkervaring</a>
+        <a href="contact.html">Contact</a>
+        </ul>
+      </nav>
+      </nav>
+      </nav>
+      </nav>
+
+
+      
+
+      <article>
+      <h2>Studies</h2>
+
+      <hr>
+      <p>Ik heb op het vmbo-t onderwijs gezeten wat me 4 jaar heeft geduurd. Ook heb ik iets extra's gedaan. Ik heb namelijk Cambridge Engels gedaan en heb daarbij ook mijn Cambridge Certificate behaald.</p></article>
+
+<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+<script src="https://www.amcharts.com/lib/3/gauge.js"></script>
+<script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+<link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+<script src="https://www.amcharts.com/lib/3/themes/chalk.js"></script>
+<div id="chartdiv"></div>	
+      
+
+
+      <footer class="footpc"> ©Copyright Stefan de Gier</footer>
+</main>
+
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+var gaugeChart = AmCharts.makeChart("chartdiv", {
+  "type": "gauge",
+  "theme": "chalk",
+  "axes": [{
+    "axisAlpha": 0,
+    "tickAlpha": 0,
+    "labelsEnabled": false,
+    "startValue": 0,
+    "endValue": 100,
+    "startAngle": 0,
+    "endAngle": 270,
+    "bands": [{
+      "color": "#eee",
+      "startValue": 0,
+      "endValue": 100,
+      "radius": "100%",
+      "innerRadius": "85%"
+    }, {
+      "color": "#84b761",
+      "startValue": 0,
+      "endValue": 80,
+      "radius": "100%",
+      "innerRadius": "85%",
+      "balloonText": "90%"
+    }, {
+      "color": "#eee",
+      "startValue": 0,
+      "endValue": 100,
+      "radius": "80%",
+      "innerRadius": "65%"
+    }, {
+      "color": "#fdd400",
+      "startValue": 0,
+      "endValue": 35,
+      "radius": "80%",
+      "innerRadius": "65%",
+      "balloonText": "35%"
+    }, {
+      "color": "#eee",
+      "startValue": 0,
+      "endValue": 100,
+      "radius": "60%",
+      "innerRadius": "45%"
+    }, {
+      "color": "#cc4748",
+      "startValue": 0,
+      "endValue": 92,
+      "radius": "60%",
+      "innerRadius": "45%",
+      "balloonText": "92%"
+    }, {
+      "color": "#eee",
+      "startValue": 0,
+      "endValue": 100,
+      "radius": "40%",
+      "innerRadius": "25%"
+    }, {
+      "color": "#67b7dc",
+      "startValue": 0,
+      "endValue": 68,
+      "radius": "40%",
+      "innerRadius": "25%",
+      "balloonText": "68%"
+    }]
+  }],
+  "allLabels": [{
+    "text": "First option",
+    "x": "49%",
+    "y": "5%",
+    "size": 15,
+    "bold": true,
+    "color": "#84b761",
+    "align": "right"
+  }, {
+    "text": "Second option",
+    "x": "49%",
+    "y": "15%",
+    "size": 15,
+    "bold": true,
+    "color": "#fdd400",
+    "align": "right"
+  }, {
+    "text": "Third option",
+    "x": "49%",
+    "y": "24%",
+    "size": 15,
+    "bold": true,
+    "color": "#cc4748",
+    "align": "right"
+  }, {
+    "text": "Fourth option",
+    "x": "49%",
+    "y": "33%",
+    "size": 15,
+    "bold": true,
+    "color": "#67b7dc",
+    "align": "right"
+  }],
+  "export": {
+    "enabled": false
+  }
+});
+
+</script>
+</body>
+</html>
