@@ -196,6 +196,7 @@ function level6() {
 document.getElementById('tekst').innerHTML = "Je bent bij de Idol! Maar je moet de mechanisme manipuleren om geen gevaar te brengen.. Misschien een zakje?";
 	document.getElementById('level_title').innerHTML = 'See idol'
 	document.body.style.backgroundImage = "url('change2.gif')"
+	document.body.style.backgroundSize = "1920px"
 
 var opt1 = document.getElementById('option1');
 	opt1.innerHTML = 'Springen';
